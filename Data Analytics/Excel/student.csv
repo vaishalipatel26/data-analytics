@@ -1,0 +1,12 @@
+Name,Gender,Marks,Course,City
+Suresh,Male,77,Data Science,Vadodara
+Mahesh,Male,76,Data Science,Ahemdabad
+Naresh,Male,87,Data Analytics,Surat
+Keya,Female,77,Full Stack,Vadodara
+Kriti,Female,88,Cloud,Ahemdabad
+Kamesh,Male,45,Data Science,Surat
+Komal,Female,60,Cloud,Ahemdabad
+Jayesh,Male,,Data Analytics,Surat
+Kavya,Female,50,Cloud,
+Naresh,Male,87,Data Analytics,Surat
+Harry,Male,,,

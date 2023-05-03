@@ -1,0 +1,43 @@
+CURSORS IN SQL SERVER:
+----------------------
+-> CURSOR is a Temp. Memory/Temp. WorkStation
+-> Will allocate by DB Server at the time of DML operations, performing by user on DB tables
+-> For storing Database Tables
+
+Types of CURSOR:
+-----------------
+1. Implicit Cursor
+-> Default Cursor
+-> This memory is allocated by DB server
+
+2. Explicit Cursor
+-> Created by User
+-> Fetch data from table in row-by-row manner
+
+Working with Explicit Cursor:
+-----------------------------
+STEP1: DECLARE CURSOR OBJECT
+SYNTAX
+------
+DECLARE <CURSOR NAME> CURSOR FOR SELECT * FROM TABLENAME
+
+STEP2: OPEN CURSOR CONNECTION
+SYNTAX
+------
+OPEN <CURSOR CONNECTION>
+
+STEP3: FETCH DATA FROM CURSOR
+SYNTAX
+------
+FETCH NEXT/FIRST/LAST/PRIOR/ABSOLUTE n/ RELATIVE n
+FROM <CURSOR NAME> [INTO VARIABLES]
+
+STEP4: CLOSE CURSOR CONNECTION
+SYNTAX
+------
+CLOSE <CURSOR NAME>
+
+STEP5: DEALLOCATE CURSOR MEMORY
+SYNTAX
+------
+DEALLOCATE <CURSOR NAME>
